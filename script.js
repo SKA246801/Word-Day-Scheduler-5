@@ -31,9 +31,12 @@ $('.4PM').val(localStorage.getItem('16'))
 $('.5PM').val(localStorage.getItem('17'))
 
 
+
 function pastPresentFuture () {
-    
-    debugger
+    for(i=0; i < 8; i++){
+        let key = hourArr[i].toString()
+        task[i] = localStorage.getItem(key)
+    }
     for(i = 9; i < 18; i++){
         let divEl = document.querySelector('#hour-' + i)
         $('#hour-' + i).children()[1]
