@@ -20,15 +20,15 @@ function saveTask () {
 let hourArr = [9, 10, 11, 12, 13, 14, 15, 16, 17]
 let task = ['', '', '', '', '', '', '', '', '']
 
-$('.9AM').val(localStorage.getItem('9'))
-$('.10AM').val(localStorage.getItem('10'))
-$('.11AM').val(localStorage.getItem('11'))
-$('.12AM').val(localStorage.getItem('12'))
-$('.1PM').val(localStorage.getItem('13'))
-$('.2PM').val(localStorage.getItem('14'))
-$('.3PM').val(localStorage.getItem('15'))
-$('.4PM').val(localStorage.getItem('16'))
-$('.5PM').val(localStorage.getItem('17'))
+// $('.9AM').val(localStorage.getItem('9'))
+// $('.10AM').val(localStorage.getItem('10'))
+// $('.11AM').val(localStorage.getItem('11'))
+// $('.12AM').val(localStorage.getItem('12'))
+// $('.1PM').val(localStorage.getItem('13'))
+// $('.2PM').val(localStorage.getItem('14'))
+// $('.3PM').val(localStorage.getItem('15'))
+// $('.4PM').val(localStorage.getItem('16'))
+// $('.5PM').val(localStorage.getItem('17'))
 
 
 
