@@ -1,4 +1,3 @@
-// debugger;
 let today = moment().format('dddd, MMMM Do YYYY')
 $('#currentDay').text("Today's date: " + today)
 let currentHour = moment().format('H')
@@ -14,7 +13,6 @@ function saveTask () {
     time = parseInt(time.replace('hour-', ''))
 
     localStorage.setItem(time, userInput)
-    // console.log(time)
 }
 
 let hourArr = [9, 10, 11, 12, 13, 14, 15, 16, 17]
@@ -41,8 +39,6 @@ function pastPresentFuture () {
         let divEl = document.querySelector('#hour-' + i)
         $('#hour-' + i).children()[1]
         .value = task[i-9]
-        // console.log(typeof hourArr[i-9])
-        // console.log('currentHour', typeof currentHour)
         
         if (hourArr[i-9] < currentHour) {
             divEl.setAttribute('class', 'row time-block past')
